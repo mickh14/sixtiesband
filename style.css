@@ -12,9 +12,13 @@
 
 /*-----------------header*/
 
-.menuitem{
+.menuitem {
     color: #fafafa;
     }
+    
+.bg-dark-taylor {
+    background-color: transparent;
+}
 
 /*-----------------home*/
 .home-container {
