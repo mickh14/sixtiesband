@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+
+/*-----------------colors*/
+
+.header-bg-color {
+    background-color: #9494a7;
+    text-align: center;
+    height: 60px;
+    padding-top: 20px;
+}
+
+/*-----------------header*/
+
+.menuitem{
+    color: #fafafa;
+    }
+
+/*-----------------home*/
+.home-container {
+    background-color: blue;
+    height: 500px;
+}
+
+/*-----------------tour*/
+.tour-container {
+    background-color: green;
+    height: 500px;
+}
+
+/*-----------------music*/
+.music-container {
+    background-color: blue;
+    height: 500px;
+}
+
+/*-----------------photos*/
+.photos-container {
+    background-color: red;
+    height: 500px;
+}
+
+/*-----------------news*/
+.news-container {
+    background-color: green;
+    height: 500px;
+}
+
+/*-----------------footer*/
+#footerdetails {
+    padding: 20px;
+    background-color: #f8f9fa!important;
+}
+
+.music-dowload i {
+    font-size: 18px;
+    color: #8f8f8f;
+    text-align: center;
+    padding-left: 5px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.music-dowload i:hover {
+    color: #e84610;
+}
+
+.social-links {
+    padding-bottom: 15px;
+
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background-color: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background-color: #e84610;
+}
+
+
+/*-----------------special*/
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: rgba(0,0,0,.9);
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.inline-block {
+    display: inline-block;
+}
