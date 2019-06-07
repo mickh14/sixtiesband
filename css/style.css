@@ -3,24 +3,23 @@
 
 /*-----------------colors*/
 
-.header-bg-color {
-
-}
+.header-bg-color {}
 
 /*-----------------header*/
 
 .menuitem {
     color: #fafafa;
-    }
-    
+}
+
 .bg-dark-taylor {
     background-color: transparent;
 }
 
 /*-----------------home*/
+
 .home-container {
     height: 100vh;
-    background: url("../assets/images/album2.jpg") no-repeat center fixed;
+    background: url("../assets/images/monkeeslive.jpg") no-repeat center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -50,9 +49,12 @@
     color: white;
     font-weight: bold;
     margin-bottom: 30px;
+    margin-top: 50px;
 }
+
 .lead {
     color: white;
+    margin-top: 190px;
 }
 
 .btn--cta {
@@ -65,33 +67,107 @@
     color: white;
     background-color: #f05f40;
     border-color: #f05f40;
-    
+
 }
+
 /*-----------------tour*/
-.tour-container {
-    background-color: green;
-    height: 500px;
+
+.bg-color-tour{
+    background-color: #224eed57;
 }
+    
+
+.tour-heading {
+    color: #fafafa;
+    margin-bottom: 25px;
+    margin-top: 50px;
+}
+
+.tour-items {
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+.tour-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: #fafafa;
+    border-left: 1px solid;
+}
+
+.tour-item p {
+    padding: 0;
+    margin: 0;
+}
+
+
+.tour-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+.tour-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background-color: #fafafa;
+}
+
+.bg-ticket-booking {
+    background: url("../assets/images/monkees.jpg") no-repeat top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
 
 /*-----------------music*/
+
 .music-container {
     background-color: blue;
-    height: 500px;
 }
 
-/*-----------------photos*/
-.photos-container {
-    background-color: #dbcece;
-    height: 500px;
-}
+
 
 /*-----------------news*/
+
 .news-container {
-    background-color: green;
-    height: 500px;
+    background-color: #224eed57;
+}
+
+.secion-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+    color: #fafafa;
+}
+
+.story{
+    text-align: center;
+    margin-bottom: 40px;
 }
 
 /*-----------------footer*/
+
 #footerdetails {
     padding: 20px;
     background-color: #f8f9fa!important;
@@ -139,10 +215,11 @@
 
 
 /*-----------------special*/
+
 .general-sub {
     font-family: "Exo", sans-serif;
     font-weight: 300;
-    color: rgba(0,0,0,.9);
+    color: rgba(0, 0, 0, .9);
 }
 
 .uppercase {
