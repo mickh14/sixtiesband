@@ -72,13 +72,13 @@
 
 /*-----------------tour*/
 
-.bg-color-tour{
-    background-color: #224eed57;
+.bg-color-tour {
+    background-color: rgba(140, 134, 134, 0.075);
 }
-    
+
 
 .tour-heading {
-    color: #fafafa;
+    color: #343a40;
     margin-bottom: 25px;
     margin-top: 50px;
 }
@@ -91,7 +91,7 @@
 .tour-item {
     padding: 4em 2em 0em 2em;
     position: relative;
-    color: #fafafa;
+    color: #343a40;
     border-left: 1px solid;
 }
 
@@ -123,7 +123,7 @@
     left: -6px;
     border-radius: 12px;
     content: '';
-    background-color: #fafafa;
+    background-color: #343a40;
 }
 
 .bg-ticket-booking {
@@ -142,26 +142,42 @@
 
 /*-----------------music*/
 
-.music-container {
-    background-color: blue;
+.bg-color-video {
+    background-color: #cacfd5;
+}
+
+.music-caption {
+    font-family: "Exo", sans-serif;
+}
+
+.play-list {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
+.play-list-style {
+    font-family: "Exo", sans-serif;
+    background-color: rgba(140, 134, 134, 0.075);
+}
 
 /*-----------------news*/
 
-.news-container {
-    background-color: #224eed57;
+.section-top {
+    background-color: rgba(140, 134, 134, 0.075);
 }
 
 .secion-header {
     margin-bottom: 0;
     border-bottom: 0;
     text-align: center;
-    color: #fafafa;
+    color: #343a40;
 }
 
-.story{
+.story {
     text-align: center;
     margin-bottom: 40px;
 }
@@ -170,7 +186,7 @@
 
 #footerdetails {
     padding: 20px;
-    background-color: #f8f9fa!important;
+    background-color: #cacfd5;
 }
 
 .music-dowload i {
