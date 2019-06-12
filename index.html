@@ -17,16 +17,16 @@
 
 
     <link rel="stylesheet" href="css/carousel.css" type="text/css" />
-    <link rel="stylesheet" href="css/style.css" type="text/css" />
+<link rel="stylesheet" href="css/style.css" type="text/css" />
 
     <title>The Monkees</title>
 </head>
 
 <body>
-    <header>
+    <header class="container-fluid">
         <!--*******Navigation*******-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark-taylor fixed-top">
-            <a class="navbar-brand menuitem" href="#themonkees">The Monkees</a>
+            <a class="navbar-brand menuitem" href="#themonkees">The Monekys</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
              </button>
@@ -49,16 +49,11 @@
                     <li class="nav-item active">
                         <a class="nav-link" href="#news">New</a>
                     </li>
-                    <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="/login">Sign In / Sign Up</a></li>
-                    <!--*******visable on*******-->
+                   
                 </ul>
 
             </div>
-            <div class="d-none d-sm-block">
-                <!--*******hide on screens smaller than md*******-->
-                <p class="navbar-text my-auto mr-2"><i>Be the first to hear the latest Monkees news!</i></p>
-                <a href="/login" class="btn btn--cta btn--red">Sign In / Sign Up</a>
-            </div>
+            
         </nav>
 
     </header>
@@ -83,16 +78,11 @@
 
 
     <!--*******MUSIC*******-->
-    <section id="music">
-        <div class="row section-top">
-            <div class="col-12 secion-header">
-                <h2 class="text-uppercase ">Music:</h2>
-                <hr class="block-devider block-devider--short" </div>
-            </div>
-        </div>
+    <section id="music"class="container-fluid">
+        
         <div class="row">
-            <div class="col-md-4 bg-color-video">
-                <video width="100%" height="90%" controls>
+            <div class="col-md-4 bg-video">
+                <video width="100%" height="85%" controls>
                   <source src="../assets/video/theMonkees.mp4" type="video/mp4">
                   Your browser does not support HTML5 video.
                 </video>
@@ -154,12 +144,7 @@
 
     <!--*******TOUR*******-->
     <section id="tour" class="container-fluid">
-        <div class="row section-top">
-            <div class="col-12 secion-header">
-                <h2 class="text-uppercase ">Tour:</h2>
-                <hr class="block-devider block-devider--short" </div>
-            </div>
-        </div>
+        
         <div class="row">
             <div class="col-md-4 bg-color-tour">
                 <div class="row">
@@ -197,13 +182,8 @@
 
     <!--*******Trial new Photo*******-->
 
-    <section id="new-photos">
-        <div class="row section-top">
-            <div class="col-12 secion-header">
-                <h2 class="text-uppercase ">Photo Album:</h2>
-                <hr class="block-devider block-devider--short" </div>
-            </div>
-        </div>
+    <section id="new-photos" class="container-fluid">
+        
         <div class="row new-photos-container">
             <div class="col">
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -273,13 +253,13 @@
     </section>
 
     <!--*******NEWS*******-->
-    <section id="news">
+    <section id="news" class="container-fluid">
         <div class="row section-top">
             <div class="col-12 secion-header">
-                <h2 class="text-uppercase ">News:</h2>
+                <h2 class="text-uppercase ">News</h2>
                 <hr class="block-devider block-devider--short" </div>
             </div>
-            <div class="row">
+            <div class="row news-row">
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="story">
                         <h3><i class="fas fa-guitar d-none d-sm-block "></i> Story 1 <span class="badge badge-success ">Breaking!</span></h3>
@@ -402,6 +382,7 @@
         </div>
         <!-- /bootstrap modal -->
     </footer>
+    
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
