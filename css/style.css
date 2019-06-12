@@ -69,6 +69,13 @@
 
 /*-----------------tour*/
 
+.jumbotron-tour {
+    color: #fafafa;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
 .bg-color-tour {
     background-color: rgba(55, 95, 18, 0.31);
 }
