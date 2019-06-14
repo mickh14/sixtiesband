@@ -26,7 +26,7 @@
     <header class="container-fluid">
         <!--*******Navigation*******-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark-taylor fixed-top">
-            <a class="navbar-brand menuitem" href="#themonkees">The Monekys</a>
+            <a class="menuitem" href="#themonkees">The Monkees</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
              </button>
@@ -47,29 +47,25 @@
                     </li>
 
                     <li class="nav-item active">
-                        <a class="nav-link" href="#news">New</a>
+                        <a class="nav-link" href="#news">News</a>
                     </li>
-
                 </ul>
-
             </div>
-
         </nav>
 
     </header>
     <!--*******HOME*******-->
     <section id="themonkees">
-        <div class="opaque-overlay">&nbsp</div>
         <div class="container-fluid home-container">
             <div class="row">
                 <div class="col-12">
-                    <section class="callout jumbotron text-center">
-                        <h1 class="jumbotron-header ">Book the Monkees!</h1>
+                    <section class="jumbotron text-center">
+                        <h1 class="jumbotron-header">The Monkees!</h1>
                         <p class="lead ">Book Online for
-                            <span class="d-inline d-sm-none "><br></span>
+                            <span class="d-inline d-sm-none"><br></span>
                             <strong><mark>10% discount!</mark></strong></p>
                         <button type="button" class="btn btn-lg btn--cta btn--red" data-toggle="modal" data-target="#bookingModal ">Book Now!</button>
-                        <p class="text-muted "><small>Booking is subject to availability</small></p>
+                        <p class="text-muted"><small>Booking is subject to availability</small></p>
                     </section>
                 </div>
             </div>
@@ -175,11 +171,10 @@
             </div>
 
             <div class="col-md-8 container-fluid bg-ticket-booking">
-                <section class="callout jumbotron text-center">
+                <section class="jumbotron text-center">
                     <h1 class="jumbotron-tour">See the Monkees Live</h1>
 
-                    <button type="button" class="btn btn-lg btn--cta btn--red" data-toggle="modal" data-target="#bookingModal ">Tickets</button>
-
+                    <a class="btn btn-lg btn--cta btn--red" href="tickets.html" target="_blank" role="button">Tickets</a>
                 </section>
             </div>
 
@@ -239,7 +234,7 @@
                             <img src="../assets/images/pt.jpg" class="d-block w-100 middle" alt="Album">
                         </div>
                         <div class="carousel-item">
-                            <img src="../assets/images/monkeeslive.jpg" class="d-block w-100" alt="Album">
+                            <img src="../assets/images/monkeeslive.jpg" class="d-block w-100 middle" alt="Album">
                         </div>
                         <div class="carousel-item">
                             <img src="../assets/images/monkees.jpg" class="d-block w-100 middle" alt="Album">
@@ -352,8 +347,9 @@
             </div>
         </div>
 
-
-        <!--*******Modal*******-->
+    </footer>
+    
+            <!--*******Modal*******-->
         <div class="modal" tabindex="-1" role="dialog " id="bookingModal">
             <div class="modal-dialog " role="document ">
                 <div class="modal-content ">
@@ -383,7 +379,7 @@
                                 <label for="text">Venue</label>
                                 <input type="text " class="form-control " id="venue" placeholder="Venue">
                             </div>
-                            <button type="button" onclick="alert('Thank your for your interest. Someone will be in contact shortly')" class="btn btn-success ">Submit</button>
+                            <button type="button" onclick="alert('Thank your for your interest. Someone will be in contact shortly')" class="btn btn-lg btn--cta btn--red">Submit</button>
                         </form>
                     </div>
 
@@ -391,7 +387,6 @@
             </div>
         </div>
         <!-- /bootstrap modal -->
-    </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

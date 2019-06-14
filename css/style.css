@@ -5,11 +5,12 @@
 /*-----------------header*/
 
 .menuitem {
-    color: #fafafa;
+    color: #f05f40;
+    font-family: fantasy;
 }
 
 .bg-dark-taylor {
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.33);
 }
 
 /*-----------------home*/
@@ -28,29 +29,22 @@
 }
 
 
-.opaque-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-
-}
 
 .jumbotron {
     background-color: transparent;
 }
 
 .jumbotron-header {
-    color: white;
+    color: #f05f40;
     font-weight: bold;
     margin-bottom: 30px;
     margin-top: 50px;
+    font-family: fantasy;
 }
 
 .lead {
     color: white;
+    font-family: fantasy;
     margin-top: 190px;
 }
 
@@ -58,6 +52,10 @@
     font-weight: bold;
     border-radius: 23px;
     width: 160;
+}
+
+.text-muted{
+    color: #fafafa;
 }
 
 .btn--red {
@@ -70,7 +68,8 @@
 /*-----------------tour*/
 
 .jumbotron-tour {
-    color: #fafafa;
+    color: #f05f40;
+    font-family: fantasy;
     font-weight: bold;
     margin-bottom: 30px;
     margin-top: 50px;
@@ -162,11 +161,11 @@
 
 .play-list-style {
     font-family: "Exo", sans-serif;
-     background: url("../assets/images/musicbg.jpg") no-repeat top fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+     background: url("../assets/images/monkeesguitar.jpg") no-repeat top fixed;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -282,4 +281,61 @@
 
 .inline-block {
     display: inline-block;
+}
+
+/*-----------------Tickets*/
+
+.bg-color-ticket-head {
+    background-color: #cacfd5;
+}
+
+.bg-color-tickets {
+    background-color: rgba(55, 95, 18, 0.31);
+}
+
+.ticket-top{  
+    color: #f05f40;
+    font-family: fantasy;
+}
+
+.ticket-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+
+}
+
+
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+
+}
+
+
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #e84610;
+}
+
+
+
+/* ----------------------------------------Media Queries */
+
+
+
+@media(min-width: 992px) {
+
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
 }
