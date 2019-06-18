@@ -1,19 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 
-
-/*-----------------header*/
-
-.menuitem {
-    color: #f05f40;
-    font-family: fantasy;
-}
-
-.bg-dark-taylor {
-    background-color: rgba(0, 0, 0, 0.33);
-}
-
-/*-----------------home*/
+/*-----------------Backgrounds*/
 
 .home-container {
     height: 100vh;
@@ -28,6 +16,76 @@
     position: relative;
 }
 
+.play-list-style {
+    font-family: "Exo", sans-serif;
+     background: url("../assets/images/grey-music-bg.jpg") no-repeat top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: rgba(0, 0, 0, 0.86);
+}
+
+.bg-color-tour {
+    background-color: #f05f40;
+}
+
+.badge-success {
+    background-color: #f05f40;
+}
+
+.bg-ticket-booking {
+    background: url("../assets/images/monkees.jpg") no-repeat top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.new-photos-container {
+    background: url("../assets/images/photo-frame.jpg") no-repeat top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.section-news {
+    background: url("../assets/images/about.jpg") no-repeat top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+/*-----------------header*/
+
+.menuitem {
+    color: #f05f40;
+    font-family: fantasy;
+}
+
+.bg-dark-taylor {
+    background-color: rgba(0, 0, 0, 0.33);
+}
+
+/*-----------------home*/
 
 
 .jumbotron {
@@ -62,8 +120,29 @@
     color: white;
     background-color: #f05f40;
     border-color: #f05f40;
+    margin: 10px;
 
 }
+
+
+/*-----------------music*/
+
+
+.music-caption {
+    font-family: "Exo", sans-serif;
+}
+
+.play-list {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.play-list-text{
+    color: #f05f40;
+    }
 
 /*-----------------tour*/
 
@@ -75,13 +154,9 @@
     margin-top: 50px;
 }
 
-.bg-color-tour {
-    background-color: rgba(55, 95, 18, 0.31);
-}
-
 
 .tour-heading {
-    color: #343a40;
+    color: #fafafa;
     margin-bottom: 25px;
     margin-top: 50px;
 }
@@ -94,7 +169,7 @@
 .tour-item {
     padding: 4em 2em 0em 2em;
     position: relative;
-    color: #343a40;
+    color: #fafafa;
     border-left: 1px solid;
 }
 
@@ -129,159 +204,6 @@
     background-color: #343a40;
 }
 
-.bg-ticket-booking {
-    background: url("../assets/images/monkees.jpg") no-repeat top fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-}
-
-
-
-/*-----------------music*/
-
-
-.music-caption {
-    font-family: "Exo", sans-serif;
-}
-
-.play-list {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
-.play-list-style {
-    font-family: "Exo", sans-serif;
-     background: url("../assets/images/monkeesguitar.jpg") no-repeat top fixed;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    color: rgba(3, 13, 10, 0.78);
-}
-
-/*-----------------photos*/
-
-.new-photos-container {
-    background: url("../assets/images/photobook.jpg") no-repeat top fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-}
-
-/*-----------------news*/
-
-.section-top {
-    background: url("../assets/images/news.jpg") no-repeat top fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-}
-
-.secion-header {
-    margin-bottom: 0;
-    border-bottom: 0;
-    text-align: center;
-    color: #343a40;
-}
-
-.story {
-    text-align: center;
-    margin-bottom: 40px;
-    background-color: rgba(110, 117, 164, 0.65);
-}
-
-.news-row {
-
-    margin-top: 10;
-}
-
-/*-----------------footer*/
-
-#footerdetails {
-    padding: 20px;
-    background-color: #cacfd5;
-}
-
-.music-dowload i {
-    font-size: 18px;
-    color: #8f8f8f;
-    text-align: center;
-    padding-left: 5px;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-
-.music-dowload i:hover {
-    color: #e84610;
-}
-
-.social-links {
-    padding-bottom: 15px;
-
-}
-
-.social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
-    border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
-    text-align: center;
-    color: #fafafa;
-    background-color: #8f8f8f;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-
-.social-links li a i:hover {
-    background-color: #e84610;
-}
-
-
-/*-----------------special*/
-
-.general-sub {
-    font-family: "Exo", sans-serif;
-    font-weight: 300;
-    color: rgba(0, 0, 0, .9);
-}
-
-.uppercase {
-    text-transform: uppercase;
-}
-
-.inline-block {
-    display: inline-block;
-}
 
 /*-----------------Tickets*/
 
@@ -339,3 +261,93 @@ button[type="submit"] {
         max-width: 50%;
     }
 }
+
+
+/*-----------------photos*/
+
+
+
+/*-----------------news*/
+
+
+.news-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+    color: #343a40;
+}
+
+.story {
+    text-align: center;
+    margin: 20px;
+    background-color: rgba(145, 31, 31, 0.24);
+    }
+
+.news-row {
+
+    margin-top: 10;
+}
+
+/*-----------------footer*/
+
+#footerdetails {
+    padding: 20px;
+    background-color: #cacfd5;
+}
+
+.music-dowload i {
+    font-size: 18px;
+    color: #8f8f8f;
+    text-align: center;
+    padding-left: 5px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.music-dowload i:hover {
+    color: #e84610;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background-color: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background-color: #e84610;
+}
+
+
+/*-----------------special*/
+
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: rgba(0, 0, 0, .9);
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
