@@ -287,6 +287,7 @@ button[type="submit"] {
 .story {
     text-align: center;
     margin: 20px;
+    padding: 10px;
     background-color: rgba(145, 31, 31, 0.24);
 }
 
