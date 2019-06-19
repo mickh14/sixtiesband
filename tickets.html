@@ -37,7 +37,7 @@
                     </div>
                 </div>
             </div>
-        </div>    
+        </div>
     </header>
 
     <section class="container-fluid">
@@ -50,30 +50,83 @@
                 <h5 class="uppercase text-center">Book Tickets Now!</h5>
 
                 <div class="center-form">
-                    <form>
-                        <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
-                        <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required />
-                        
-                        <select name="no-of-tickets">
-                             <option  disabled selected>Select No of Tickets:</option>
-                             <option value="one">1</option>
-                             <option value="two">2</option>
-                             <option value="three">3</option>
-                             <option value="four">4</option>
-                        </select>
-                        <select name="no-of-tickets">
-                             <option  disabled selected>Select Venue:</option>
-                             <option value="Genting">Genting Arena - Birmingham</option>
-                             <option value="o2">The o2 Arena - London</option>
-                             <option value="Three">The Three Arena - Dublin</option>
-                             <option value="Madison">Madison Square Garden - New York</option>
-                        </select>
-                        <div class="form-row text-center">
-                            <div class="col">
-                                <button type="button" onclick="alert('CONGRATULATIONS - Your Tickets are Booked')" class="btn btn-lg btn--cta btn--red">Book Now!</button>
+                    <form class="needs-validation" novalidate>
+                        <div class="form-row">
+                            <div class="col-md-6 mb-3">
+                                <label for="fnameValidation">First name</label>
+                                <input type="text" class="form-control" id="fnameValidation" placeholder="First name" required>
+                                <div class="valid-feedback">
+                                    Looks good!
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="snameValidation">Last name</label>
+                                <input type="text" class="form-control" id="snameValidation" placeholder="Last name" required>
+                                <div class="valid-feedback">
+                                    Looks good!
+                                </div>
+                            </div>
+                            <div class="col-md-12 mb-3">
+                                <label for="validationCustomUsername">Email</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" id="uniqueemail" placeholder="email" aria-describedby="inputGroupPrepend" required>
+
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="inputGroupPrepend">@</span>
+                                    </div>
+                                    <input type="text" class="form-control" id="validationCustomUsername" placeholder="email provider" aria-describedby="inputGroupPrepend" required>
+                                    <div class="invalid-feedback">
+                                        Please enter email address.
+                                    </div>
+                                </div>
                             </div>
                         </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6 mb-3">
+                                <select class="custom-select" required>
+                                  <option value="">Select Number of Tickets</option>
+                                  <option value="1">One</option>
+                                  <option value="2">Two</option>
+                                  <option value="3">Three</option>
+                                </select>
+                                <div class="invalid-feedback">Example invalid custom select feedback</div>
+                            </div>
+                            <div class="form-group col-md-6 mb-3">
+                                <select class="custom-select" required>
+                                  <option value="">Select Venue</option>
+                                  <option value="1">Genting</option>
+                                  <option value="2">O2</option>
+                                  <option value="3">Three</option>
+                                  <option value="3">Madison Square</option>
+                                </select>
+                                <div class="invalid-feedback">Example invalid custom select feedback</div>
+                            </div>
+                        </div>
+                        <div>
+                            <button type="submit" class="btn btn--cta btn--red">Book Now!</button>
+                        </div>
                     </form>
+
+                    <script>
+                        // Example starter JavaScript for disabling form submissions if there are invalid fields
+                        (function() {
+                            'use strict';
+                            window.addEventListener('load', function() {
+                                // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                                var forms = document.getElementsByClassName('needs-validation');
+                                // Loop over them and prevent submission
+                                var validation = Array.prototype.filter.call(forms, function(form) {
+                                    form.addEventListener('submit', function(event) {
+                                        if (form.checkValidity() === false) {
+                                            event.preventDefault();
+                                            event.stopPropagation();
+                                        }
+                                        form.classList.add('was-validated');
+                                    }, false);
+                                });
+                            }, false);
+                        })();
+                    </script>
                 </div>
             </div>
         </div>
@@ -126,6 +179,30 @@
         </div>
 
     </footer>
+
+    <!-- Ticket modal -->
+    <div class="modal fade" id="ticketModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body">
+                    You are going to see the Monkees
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Ticket modal -->
+
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>

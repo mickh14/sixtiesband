@@ -18,7 +18,7 @@
 
 .play-list-style {
     font-family: "Exo", sans-serif;
-     background: url("../assets/images/grey-music-bg.jpg") no-repeat top fixed;
+    background: url("../assets/images/grey-music-bg.jpg") no-repeat top fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -63,7 +63,7 @@
 }
 
 .section-about {
-    background: url("../assets/images/about.jpg") no-repeat top fixed;
+    background: url("../assets/images/abouttable.jpg") no-repeat top fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -75,7 +75,7 @@
 }
 
 .ticket-bg {
-    background: url("../assets/images/tickets.jpg") no-repeat top fixed;
+    background: url("../assets/images/ticketsbg.jpeg") no-repeat top fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -99,7 +99,6 @@
 
 /*-----------------home*/
 
-
 .jumbotron {
     background-color: transparent;
 }
@@ -122,9 +121,9 @@
     font-weight: bold;
     border-radius: 23px;
     width: 160;
-}
+    }
 
-.text-muted{
+.text-muted {
     color: #fafafa;
 }
 
@@ -139,7 +138,6 @@
 
 /*-----------------music*/
 
-
 .music-caption {
     font-family: "Exo", sans-serif;
 }
@@ -152,9 +150,9 @@
     margin-right: auto;
 }
 
-.play-list-text{
+.play-list-text {
     color: #f05f40;
-    }
+}
 
 /*-----------------tour*/
 
@@ -227,7 +225,7 @@
     background-color: rgba(55, 95, 18, 0.31);
 }
 
-.ticket-top{  
+.ticket-top {
     color: #f05f40;
     font-family: fantasy;
 }
@@ -240,7 +238,9 @@
 
 }
 
-
+.ticket-form {
+    color: black;
+}
 
 .center-form {
     padding-top: 10px;
@@ -262,8 +262,6 @@ button[type="submit"] {
 
 /* ----------------------------------------Media Queries */
 
-
-
 @media(min-width: 992px) {
 
     .center-form {
@@ -277,10 +275,7 @@ button[type="submit"] {
 
 /*-----------------photos*/
 
-
-
 /*-----------------about*/
-
 
 .about-header {
     margin-bottom: 0;
@@ -293,7 +288,7 @@ button[type="submit"] {
     text-align: center;
     margin: 20px;
     background-color: rgba(145, 31, 31, 0.24);
-    }
+}
 
 .about-row {
 
@@ -362,4 +357,3 @@ button[type="submit"] {
 .inline-block {
     display: inline-block;
 }
-
