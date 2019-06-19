@@ -62,8 +62,20 @@
     position: relative;
 }
 
-.section-news {
+.section-about {
     background: url("../assets/images/about.jpg") no-repeat top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.ticket-bg {
+    background: url("../assets/images/tickets.jpg") no-repeat top fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -267,10 +279,10 @@ button[type="submit"] {
 
 
 
-/*-----------------news*/
+/*-----------------about*/
 
 
-.news-header {
+.about-header {
     margin-bottom: 0;
     border-bottom: 0;
     text-align: center;
@@ -283,7 +295,7 @@ button[type="submit"] {
     background-color: rgba(145, 31, 31, 0.24);
     }
 
-.news-row {
+.about-row {
 
     margin-top: 10;
 }
