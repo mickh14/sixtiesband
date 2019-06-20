@@ -34,27 +34,27 @@ These can be found at the below location
 
 ## Features
 
-### [Home Page](https://mickh14.github.io/sixtiesband/themonkees)
+### [Home Page](https://sisties-band-mickh14.c9users.io/index.html#themonkees)
 
 - Background image of the band performing live
 - Button to allow users to book the band
   - Opens a model to take booking details
 
-### [Music Page](https://mickh14.github.io/sixtiesband/music.html)
+### [Music Page](https://sisties-band-mickh14.c9users.io/index.html#music)
 
 - Videos - this allows the user to watch and get a feel of what the Monkees are like in action
 - Albums - this feature displays a selection of the Monkees songs.
 
-### [Tour Page Page](https://mickh14.github.io/sixtiesband/)
+### [Tour Page Page](https://sisties-band-mickh14.c9users.io/index.html#tour)
 
 - Provides fans with details of upcoming gig and an opportunity to buy tickets
   - Ticket booking page has a form to enter details on purchase tickets
 
-### [Photo Album Page](https://mickh14.github.io/sixtiesband/)
+### [Photo Album Page](https://sisties-band-mickh14.c9users.io/index.html#new-photos)
 
 - Carousel - this is a nice little display which allows user to view different pictures of the band
 
-### [Band Page](https://mickh14.github.io/sixtiesband/)
+### [Band Page](https://sisties-band-mickh14.c9users.io/index.html#about)
 
 - Articles with details on the band
 - Read More – modal that will proivde more details on each band member
