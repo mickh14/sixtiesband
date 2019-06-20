@@ -134,6 +134,10 @@
     font-family: "Exo", sans-serif;
 }
 
+.no-bullet {
+    list-style: none;
+}
+
 .play-list {
     padding-top: 20px;
     padding-bottom: 20px;
