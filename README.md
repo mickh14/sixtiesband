@@ -40,21 +40,21 @@ These can be found at the below location
 - Button to allow users to book the band
   - Opens a model to take booking details
 
-### [Music Page](https://jtuck15.github.io/milestone-project-1/music.html)
+### [Music Page]
 
 - Videos - this allows the user to watch and get a feel of what the Monkees are like in action
 - Albums - this feature displays a selection of the Monkees songs.
 
-### [Tour Page Page](https://jtuck15.github.io/milestone-project-1/bookings.html)
+### [Tour Page Page]
 
 - Provides fans with details of upcoming gig and an opportunity to buy tickets
   - Ticket booking page has a form to enter details on purchase tickets
 
-### [Photo Album Page](https://jtuck15.github.io/milestone-project-1/band.html)
+### [Photo Album Page]
 
 - Carousel - this is a nice little display which allows user to view different pictures of the band
 
-### [Band Page](https://jtuck15.github.io/milestone-project-1/band.html)
+### [Band Page]
 
 - Articles with details on the band
 - Read More – modal that will proivde more details on each band member
