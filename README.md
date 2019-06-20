@@ -100,6 +100,9 @@ These can be found at the below location
 - Chrome
 - Firefox
 
+### Validation:
+All files passed validation testing at https://validator.w3.org/nu/#textarea
+
 ## **Deployment**
 
 My website is currently deployed on Github Pages - [https://mickh14.](https://mickh14.github.io/sixtiesband/)[github.io/sixtiesband/](https://mickh14.github.io/sixtiesband/)

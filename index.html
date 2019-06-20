@@ -60,11 +60,11 @@
             <div class="row">
                 <div class="col-12">
                     <section class="jumbotron text-center">
-                        <h1 class="jumbotron-header">The Monkees!</h1>
-                        <p class="lead ">Book Online for
+                        <h2 class="jumbotron-header">The Monkees!</h2>
+                        <p class="lead">Book Online for
                             <span class="d-inline d-sm-none"><br></span>
                             <strong><mark>10% discount!</mark></strong></p>
-                        <button type="button" class="btn btn-lg btn--cta btn--red" data-toggle="modal" data-target="#bookingModal ">Book Now!</button>
+                        <button type="button" class="btn btn-lg btn--cta btn--red" data-toggle="modal" data-target="#bookingModal">Book Now!</button>
                         <p class="text-muted"><small>Booking is subject to availability</small></p>
                     </section>
                 </div>
@@ -78,14 +78,15 @@
 
         <div class="row">
             <div class="col-md-4 bg-video">
-                <video width="100%" height="85%" controls>
-                  <source src="assets/video/theMonkees.mp4" type="video/mp4">
-                  Your browser does not support HTML5 video.
-                </video>
-
-                <p class="music-caption">
-                    Day Dream Believer by the Monkees
-                </p>
+                <div class="vid-pos">
+                    <video width="300" height="200" controls>
+                      <source src="assets/video/theMonkees.mp4" type="video/mp4">
+                      Your browser does not support HTML5 video.
+                    </video>
+                </div>
+                <div class="video-wrapper">
+                    <h4 class="text-center music-captions">The Monkeys - Day Dream Believer</h4>
+                </div>
             </div>
             <div class="media col-md-8 play-list play-list-style">
                 <ul>
@@ -165,92 +166,92 @@
             </div>
             <div class="col-md-8 container-fluid bg-ticket-booking">
                 <section class="container-fluid">
-        <div class="row ticket-bg">
-            <div class="col">
-                <h3 class="ticket-heading uppercase text-center">Your one step Closer to seeing the Monkees</h3>
-                <h5 class="uppercase text-center">Book Tickets Now!</h5>
-                <div class="center-form">
-                    <form class="needs-validation" novalidate>
-                        <div class="form-row">
-                            <div class="col-md-6 mb-3">
-                                <label for="fnameValidation">First name</label>
-                                <input type="text" class="form-control" id="fnameValidation" placeholder="First name" required>
-                                <div class="valid-feedback">
-                                    Looks good!
-                                </div>
-                            </div>
-                            <div class="col-md-6 mb-3">
-                                <label for="snameValidation">Last name</label>
-                                <input type="text" class="form-control" id="snameValidation" placeholder="Last name" required>
-                                <div class="valid-feedback">
-                                    Looks good!
-                                </div>
-                            </div>
-                            <div class="col-md-12 mb-3">
-                                <label for="validationCustomUsername">Email</label>
-                                <div class="input-group">
-                                    <input type="text" class="form-control" id="uniqueemail" placeholder="email" aria-describedby="inputGroupPrepend" required>
+                    <div class="row ticket-bg">
+                        <div class="col">
+                            <h3 class="ticket-heading uppercase text-center">Your one step Closer to seeing the Monkees</h3>
+                            <h5 class="uppercase text-center">Book Tickets Now!</h5>
+                            <div class="center-form">
+                                <form class="needs-validation" novalidate>
+                                    <div class="form-row">
+                                        <div class="col-md-6 mb-3">
+                                            <label for="finameValidation">First name</label>
+                                            <input type="text" class="form-control" id="finameValidation" placeholder="First name" required>
+                                            <div class="valid-feedback">
+                                                Looks good!
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 mb-3">
+                                            <label for="surnameValidation">Last name</label>
+                                            <input type="text" class="form-control" id="surnameValidation" placeholder="Last name" required>
+                                            <div class="valid-feedback">
+                                                Looks good!
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 mb-3">
+                                            <label for="validationUsername">Email</label>
+                                            <div class="input-group">
+                                                <input type="text" class="form-control" id="theemail" placeholder="email" aria-describedby="inputGroupPrepend" required>
 
-                                    <div class="input-group-prepend">
-                                        <span class="input-group-text" id="inputGroupPrepend">@</span>
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text" id="inputGroupPrepend">@</span>
+                                                </div>
+                                                <input type="text" class="form-control" id="validationUsername" placeholder="email provider" aria-describedby="inputGroupPrepend" required>
+                                                <div class="invalid-feedback">
+                                                    Please enter email address.
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <input type="text" class="form-control" id="validationCustomUsername" placeholder="email provider" aria-describedby="inputGroupPrepend" required>
-                                    <div class="invalid-feedback">
-                                        Please enter email address.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="form-group col-md-6 mb-3">
-                                <select class="custom-select" required>
+                                    <div class="form-row">
+                                        <div class="form-group col-md-6 mb-3">
+                                            <select class="custom-select" required>
                                   <option value="">Select Number of Tickets</option>
                                   <option value="1">One</option>
                                   <option value="2">Two</option>
                                   <option value="3">Three</option>
                                 </select>
-                                <div class="invalid-feedback">Example invalid custom select feedback</div>
-                            </div>
-                            <div class="form-group col-md-6 mb-3">
-                                <select class="custom-select" required>
+                                            <div class="invalid-feedback">Example invalid custom select feedback</div>
+                                        </div>
+                                        <div class="form-group col-md-6 mb-3">
+                                            <select class="custom-select" required>
                                   <option value="">Select Venue</option>
                                   <option value="1">Genting</option>
                                   <option value="2">O2</option>
                                   <option value="3">Three</option>
                                   <option value="3">Madison Square</option>
                                 </select>
-                                <div class="invalid-feedback">Example invalid custom select feedback</div>
+                                            <div class="invalid-feedback">Example invalid custom select feedback</div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <button type="submit" class="btn btn--cta btn--red">Book Now!</button>
+                                    </div>
+                                </form>
+
+                                <script>
+                                    // Example starter JavaScript for disabling form submissions if there are invalid fields
+                                    (function() {
+                                        'use strict';
+                                        window.addEventListener('load', function() {
+                                            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                                            var forms = document.getElementsByClassName('needs-validation');
+                                            // Loop over them and prevent submission
+                                            var validation = Array.prototype.filter.call(forms, function(form) {
+                                                form.addEventListener('submit', function(event) {
+                                                    if (form.checkValidity() === false) {
+                                                        event.preventDefault();
+                                                        event.stopPropagation();
+                                                    }
+                                                    form.classList.add('was-validated');
+                                                }, false);
+                                            });
+                                        }, false);
+                                    })();
+                                </script>
                             </div>
                         </div>
-                        <div>
-                            <button type="submit" class="btn btn--cta btn--red">Book Now!</button>
-                        </div>
-                    </form>
-
-                    <script>
-                        // Example starter JavaScript for disabling form submissions if there are invalid fields
-                        (function() {
-                            'use strict';
-                            window.addEventListener('load', function() {
-                                // Fetch all the forms we want to apply custom Bootstrap validation styles to
-                                var forms = document.getElementsByClassName('needs-validation');
-                                // Loop over them and prevent submission
-                                var validation = Array.prototype.filter.call(forms, function(form) {
-                                    form.addEventListener('submit', function(event) {
-                                        if (form.checkValidity() === false) {
-                                            event.preventDefault();
-                                            event.stopPropagation();
-                                        }
-                                        form.classList.add('was-validated');
-                                    }, false);
-                                });
-                            }, false);
-                        })();
-                    </script>
-                </div>
-            </div>
-        </div>
-    </section>
+                    </div>
+                </section>
             </div>
 
         </div>
@@ -332,21 +333,21 @@
     <section id="about" class="container-fluid">
         <div class="row section-about">
             <div class="col-12 about-header">
-                <h2 class="text-uppercase ">About the Band</h2>
+                <h2 class="text-uppercase">About the Band</h2>
                 <hr>
             </div>
             <div class="row about-row">
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="story">
-                        <h3><i class="fas fa-guitar d-none d-sm-block "></i> <span class="badge badge-success ">The Monkees!</span></h3>
-                        <p>The Monkees are an American rock and pop band originally active between 1966 and 1971, with reunion albums and tours in the decades that followed. Their original line-up consisted of the American actor/musicians Micky Dolenz, Michael
-                            Nesmith, and Peter Tork with English actor/singer Davy Jones.</p>
+                        <h3><i class="fas fa-guitar d-none d-sm-block"></i> <span class="badge badge-success">The Monkees!</span></h3>
+                        <p>The Monkees are an American rock and pop band originally active between 1966 and 1971, with reunion albums and tours in the decades that followed.</p>
+                        <p>Their original line-up consisted of the American actor/musicians Micky Dolenz, Michael Nesmith, and Peter Tork with English actor/singer Davy Jones.</p>
                         <p><button type="button" class="btn btn-lg btn--cta btn--red" data-toggle="modal" data-target="#aboutModal">Read More</button></p>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="story">
-                        <h3><i class="fas fa-headphones d-none d-sm-block "></i>Band Members</h3>
+                        <h3><i class="fas fa-headphones d-none d-sm-block"></i><span class="badge badge-success">Band Members</span></h3>
                         <p>George Michael Dolenz Jr. as the vocalist and drummer</p>
                         <p>Robert Michael Nesmith as song writer and singer</p>
                         <p>Peter Halsten Thorkelson as the keyboardist and bass guitarist</p>
@@ -354,11 +355,11 @@
                         <p><button type="button" class="btn btn-lg btn--cta btn--red" data-toggle="modal" data-target="#bandModal">Read More</button></p>
                     </div>
                 </div>
-                <div class="col-12 d-md-none d-lg-block col-lg-4 ">
-                    <div class="story ">
-                        <h3><i class="fas fa-compact-disc d-none d-sm-block "></i>Reunion</h3>
-                        <p>The 45th anniversary tour would be the last with Jones, who died of a heart attack at age 66 due to atherosclerosis on February 29, 2012. Soon thereafter, rumors began to circulate that Nesmith would reunite with Dolenz and Tork
-                            in the wake of Jones' death</p>
+                <div class="col-12 d-md-none d-lg-block col-lg-4">
+                    <div class="story">
+                        <h3><i class="fas fa-compact-disc d-none d-sm-block"></i><span class="badge badge-success">Reunion</span></h3>
+                        <p>The 45th anniversary tour would be the last with Jones, who died of a heart attack at age 66 due to atherosclerosis on February 29, 2012.</p>
+                        <p>Soon thereafter, rumors began to circulate that Nesmith would reunite with Dolenz and Tork in the wake of Jones' death</p>
                         <p><button type="button" class="btn btn-lg btn--cta btn--red" data-toggle="modal" data-target="#reunionModal">Read More</button></p>
                     </div>
                 </div>
@@ -417,13 +418,13 @@
     </footer>
 
     <!--*******booking-Modal*******-->
-    <div class="modal" tabindex="-1" role="dialog " id="bookingModal">
-        <div class="modal-dialog " role="document ">
-            <div class="modal-content ">
-                <div class="modal-header ">
-                    <h5 class="modal-title ">Book The Monkees Now!</h5>
+    <div class="modal" tabindex="-1" role="dialog" id="bookingModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Book The Monkees Now!</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true ">&times;</span>
+                      <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
 
@@ -447,12 +448,12 @@
                             <div class="col-md-12 mb-3">
                                 <label for="validationCustomUsername">Email</label>
                                 <div class="input-group">
-                                    <input type="text" class="form-control" id="uniqueemail" placeholder="email" aria-describedby="inputGroupPrepend" required>
+                                    <input type="text" class="form-control" id="uniqueemail" placeholder="email" aria-describedby="inGroupPrepend" required>
 
                                     <div class="input-group-prepend">
-                                        <span class="input-group-text" id="inputGroupPrepend">@</span>
+                                        <span class="input-group-text" id="inGroupPrepend">@</span>
                                     </div>
-                                    <input type="text" class="form-control" id="validationCustomUsername" placeholder="email provider" aria-describedby="inputGroupPrepend" required>
+                                    <input type="text" class="form-control" id="validationCustomUsername" placeholder="provider" aria-describedby="inGroupPrepend" required>
                                     <div class="invalid-feedback">
                                         Please enter email address.
                                     </div>
@@ -502,7 +503,7 @@
                                 </div>
                             </div>
                         </div>
-                        <button class="btn btn-lg btn--cta btn--red" type="submit">Book Now!</button>
+                        <button type="submit" class="btn btn-lg btn--cta btn--red">Book Now!</button>
                     </form>
 
                     <script>
@@ -531,11 +532,11 @@
     </div>
     <!-- /booking modal -->
     <!-- about Modal -->
-    <div class="modal fade" id="aboutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal fade" id="aboutModal" tabindex="-1" role="dialog" aria-labelledby="aboutModal" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle">About the Monkees</h5>
+                    <h5 class="modal-title" id="aboutModal1">About the Monkees</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -558,11 +559,11 @@
     </div>
     <!-- about modal -->
     <!-- band members Modal -->
-    <div class="modal fade" id="bandModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal fade" id="bandModal" tabindex="-1" role="dialog" aria-labelledby="bandModal" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle">About the Monkees</h5>
+                    <h5 class="modal-title" id="bandModal1">About the Monkees</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -587,11 +588,11 @@
     </div>
     <!-- band members modal -->
     <!-- Reunion Modal -->
-    <div class="modal fade" id="reunionModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal fade" id="reunionModal" tabindex="-1" role="dialog" aria-labelledby="reunionModal" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle">About the Monkees</h5>
+                    <h5 class="modal-title" id="reunionModal1">About the Monkees</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
